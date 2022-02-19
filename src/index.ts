@@ -7,6 +7,19 @@ const port = process.env.PORT || 8080;
 app.get('/', async (_, res) => {
   const users = await prisma.user.findMany();
   await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
+  await prisma.user.findMany();
   res.send({
     message:
       'here are all the users, go to /create-user to create a random user and refresh this page',
